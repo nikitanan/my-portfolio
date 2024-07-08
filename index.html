@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/2f91f847ad.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <!-- <img src="images/nikita logo.jpg" class="logo">-->
+        <p><i>My Portfolio</i></p>
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">project</a></li>
+          <li><a href="#certificate">Certificate</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Web Developer & Designer</p>
+        <h1>Hi, I am <span><i>Nikita</i></span></h1>
+        <h3>IIT Kanpur</h3>
+      </div>
+      <div class="img-box">
+        <img src="images/nikita_image.png" class="main-img">
+      </div>
+    </div>
+  </div>
+  <!------------about------------------------------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/nikita2.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-tittle">About Me</h1>
+          <p class="bio">Hello! I'm Nikita, a B.Tech student at IIT Kanpur
+            specializing in Mechanical Engineering.
+            Alongside my engineering studies,
+            I have developed a strong interest and skill
+            set in software development and design. My passion
+            for problem-solving and innovative thinking drives me to
+            excel in both fields.</p>
+
+          <div class="tab-tittles">
+            <p class="tab-links active-link" onclick="opentab('Skills & Interests')">Skills & Interests</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+          </div>
+          <div class="tab-contents active-tab" id="Skills & Interests">
+            <ul>
+              <li><span>Mechanical Engineering</span><br> Leveraging my knowledge in mechanics, thermodynamics,
+                and material science to solve complex engineering problems. </li>
+              <li><span>Web Development</span><br>Experienced in HTML, CSS, JavaScript, and frameworks like React and
+                Bootstrap.</li>
+              <li><span>Programming Languages</span><br>Experienced in c and C++ , Proficient in Python.</li>
+              <li><span>Design</span><br>Proficient in UI / UX and Figma.</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Education">
+            <ul>
+              <li><span>Indian Institute of Technology Kanpur </span>
+                <br>B.Tech , Mechanical Engineering (Oct 2022 - Present)<br>CPI: 9.0/10.0
+              </li>
+              <li><span>Jawahar Navodaya Vidyalaya (Lucknow)</span><br>Senior Secondary School (2019 - 2021)
+                <br>Percentage : 90.8</li>
+              <li><span>Dakshana Foundation,Lucknow</span><br>Dakshana Scholar (2019 - 2021)</li>
+              <li><span>Jawahar Navodaya Vidyalaya (Nalanda)</span><br>Secondary School (2014 - 2019) <br>Percentage :
+                95 </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Experience">
+            <ul>
+              <li><span>FACT APP (June 2023-July 2023) </span><br> Counselling and Mentorship <br>Social Media
+                Markeating <br>Create engaging content for online marketing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-----------------project------------------------>
+
+  <div id="project">
+
+    <div class="container">
+      <h1 class="sub-tittle">My Project</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/weather.jpg">
+          <div class="layer">
+            <h3>Weather App</h3>
+            <p>This app shows the weather
+              condition (like temp,humidity and wind speed) of selected city.</p>
+            <a href="https://nikitanan.github.io/Internsavy_weather_app/"><i
+                class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/game.jpg">
+          <div class="layer">
+            <h3>Tic-Tac-Toe Game</h3>
+            <p>An interactive Tic Tac Toe game.</p>
+            <a href="https://nikitanan.github.io/tic-tac-toe_game/"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/content.jpg">
+          <div class="layer">
+            <h3>Content management tool</h3>
+            <p>Content management tool with user-friendly interface, dynamic content editing, and role-based access
+              control.</p>
+            <a href="https://nikitanan.github.io/Bharat_content_management_tool/"><i
+                class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/food_del.jpg">
+          <div class="layer">
+            <h3>Food delivery app</h3>
+            <p>AN user friendly and responsive food delivery app design.</p>
+            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!---------------------certification------------>
+
+  <div id="certificate">
+    <div class="container">
+      <h1 class="sub-tittle">Certification</h1>
+      <div class="certificate-list">
+        <div>
+          <i class="fas fa-code"></i>
+          <h2>Web Design</h2>
+          <p>Certified in Full Stack Web Development from Bharat Intern, exploring
+            front-end and back-end. Successfully completed hands-on
+            projects, demonstrating proficiency in HTML, CSS, JavaScript and more.</p>
+          <a href="https://drive.google.com/file/d/1g-VdRH7fvKp1TKEzo2tUYWLxPHd7H4xm/view?usp=drivesdk"><i
+              class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+        <div>
+          <i class="fa-solid fa-book-open-reader"></i>
+          <h2>Mentor</h2>
+          <p>Completed an internship at Fact App as a mentor and guide for JEE
+            counseling, providing personalized academic support. Additionally,
+            created engaging content for online marketing, enhancing the platform's reach and impact.</p>
+          <a href="https://drive.google.com/file/d/1gAvTtHHODi4tAcZn9L58gSj9iKnoP6vW/view?usp=drivesdk"><i
+              class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+        <div>
+          <i class="fas fa-code"></i>
+          <h2>Web Dev & Application</h2>
+          <p>Certified in Web Development basic and application from GDSC IITK, exploring
+            front-end and its application. Successfully completed hands-on
+            projects, demonstrating proficiency in HTML, CSS, JavaScript and more.</p>
+          <a href="https://drive.google.com/file/d/1h2ToucFWcDKidLq0nDfdrjQEH2Lgiayb/view?usp=drivesdk"><i
+              class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+        <div>
+          <i class="fas fa-crop-alt"></i>
+          <h2>Web & Design</h2>
+          <p>Completed Web Development and Designing at Internsavy, gaining expertise in creating responsive
+            and visually appealing websites. Developed practical skills in HTML, CSS, JavaScript,
+            and modern design principles.</p>
+          <a href="https://drive.google.com/file/d/1g1x1lLfxy-9U5hFjg-8r-0h3mkAMDX7W/view?usp=drivesdk"><i
+              class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!----------------contact------------------>
+  <div id="contact">
+    <div class="conainer">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-tittle">Contact Me</h1>
+          <p><i class="fa-solid fa-envelope"></i>nikitananda181203@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i>9835756577</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="#" class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>copyright <i class="fa-regular fa-copyright"></i> portfolio made by nikita. </p>
+    </div>
+  </div>
+
+
+
+  <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+  </script>
+  <script>
+     const scriptURL= '#'
+     const form=document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+
+    form.addEventListener('submit',e =>{
+      e.preventDefault()
+      fetch(scriptURL)
+      .then(response =>{
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.rest()
+      })
+    })
+
+  </script>
+</body>
+
+</html>
